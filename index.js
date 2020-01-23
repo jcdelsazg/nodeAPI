@@ -10,7 +10,7 @@ const PORT = 4000
 
 mongoose.Promise = global.Promise
 mongoose.connect('mongodb://localhost/apiNode', {
-    userNewUrlParser: true,
+    useNewUrlParser: true,
     useUnifiedTopology: true,
 })
 
