@@ -12,3 +12,7 @@
 2. Clone the repository and run npm install for download the dependencies.
 3. Run npm start from the terminal and the server starts and the rest API is up and running.
 4. For testing you can use the postman collection inside of the root folder.
+
+## Basic update for serving static files from node
+
+In index.js you can find a basic update for serving static files
